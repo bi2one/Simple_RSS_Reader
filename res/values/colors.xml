@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <color name="rss_subject">#9193B5</color>
+  <color name="rss_subject_strong">#3133B5</color>
+  <color name="feed_url">#BB7</color>
+  <color name="item_feed_bottomline">#212121</color>
+</resources>

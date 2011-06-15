@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	      style="@style/DefaultLinearFill" >
+  <TextView
+      style="@style/DefaultWidthFill"
+      android:text="@string/regist_rss_desc" />
+  <EditText
+      style="@style/DefaultWidthFill"
+      android:id="@+id/rss_text"
+      android:hint="@string/regist_rss_example" />
+  <RelativeLayout style="@style/DefaultWidthFill">
+    <Button
+	style="@style/DefaultButton"
+	android:layout_toLeftOf="@+id/cancel_button"
+	android:onClick="onOkClicked"
+	android:text="@string/ok" />
+    <Button
+	style="@style/DefaultButton"
+	android:id="@id/cancel_button"
+	android:layout_alignParentRight="true"
+	android:onClick="onCancelClicked"
+	android:text="@string/cancel" />
+  </RelativeLayout>
+</LinearLayout>

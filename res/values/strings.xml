@@ -1,4 +1,48 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">RSSReaderActivity</string>
+  <!-- title bar string -->
+  <string name="main_activity">Simple RSS Reader - Main</string>
+  <string name="help_activity">Simple RSS Reader - Help</string>
+  <string name="regist_rss_activity">Simple RSS Reader - Regist RSS</string>
+  <string name="remove_rss_activity">Simple RSS Reader - Remove RSS</string>
+
+  <!-- common string -->
+  <string name="app_name">Simple RSS Reader</string>
+  <string name="ok">확인</string>
+  <string name="cancel">취소</string>
+  <string name="regist_rss">RSS등록</string>
+  <string name="remove_rss">RSS삭제</string>
+  <string name="help">도움말</string>
+  <string name="all_post">모든 글</string>
+  <string name="new_post">새 글</string>
+  <string name="alert">경고</string>
+  <string name="remove_really">정말 삭제하시겠습니까?</string>
+  <string name="yes">예</string>
+  <string name="no">아니오</string>
+  <string name="flush_article">보기기록초기화</string>
+  <string name="flush_article_really">정말 보기 기록을 초기화합니까?</string>
+  <string name="reload">다시 불러오기</string>
+
+  <!-- ok message -->
+  <string name="regist_rss_ok">rss feed 등록이 완료되었습니다</string>
+
+  <!-- exception -->
+  <string name="exception_sql_url_exist">이미 존재하는 url입니다. 다른 url을 입력해주세요</string>
+  <string name="exception_http_connect">URL이 잘못되었거나, 접속 상태가 불량합니다</string>
+  <string name="exception_sax">파싱에러: RSS 2.0을 준수하는지 확인하세요</string>
+
+  <!-- regist_rss.xml -->
+  <string name="regist_rss_desc">여기, RSS Feed를 등록하세요.</string>
+  <string name="regist_rss_example">ex)www.notcot.com/index.xml</string>
+
+  <!-- help.xml -->
+  <string name="help_contents">
+    Simple RSS Reader는...\n\n쉽고 간편하게 RSS Feed를 관리할 수 있는 어플리케이션 입니다.\n\n
+    현재는 표준에 준수한 RSS2.0만을 지원하며, 추후에 업데이트가 쉽도록 Parser부분만 따로 떼어내었습니다. \n\n
+    Parser부분에 다른 RSS표준이나 ATOM을 지원하도록 하기 편하게 되어 있습니다.\n\n
+    누구나 구현부가 있다면 확장할 수 있습니다.\n\n
+
+    Copyright(C) \n
+    Hyun-Seo, Jung-Kyoon at Hanyang Univ.
+  </string>
 </resources>

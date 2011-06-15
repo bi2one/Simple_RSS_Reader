@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content">
+  <TextView
+      android:id="@+id/item_rss_title"
+      android:layout_width="fill_parent"
+      android:layout_height="wrap_content"
+      android:layout_alignParentLeft="true"
+      android:layout_alignParentTop="true"
+      android:textColor="@color/rss_subject"
+      android:singleLine="true" />
+  <TextView
+      android:id="@+id/item_rss_url"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_below="@id/item_rss_title"
+      android:layout_alignParentLeft="true"
+      android:singleLine="true" />
+  <TextView
+      android:id="@+id/item_rss_date"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_alignParentLeft="true"
+      android:singleLine="true"
+      android:layout_below="@id/item_rss_url" />
+</RelativeLayout>

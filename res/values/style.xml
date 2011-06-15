@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <style name="DefaultWrap">
+    <item name="android:layout_width">wrap_content</item>
+    <item name="android:layout_height">wrap_content</item>
+  </style>
+  
+  <style name="DefaultFill">
+    <item name="android:layout_width">fill_parent</item>
+    <item name="android:layout_height">fill_parent</item>
+  </style>
+  
+  <style name="DefaultWidthFill">
+    <item name="android:layout_width">fill_parent</item>
+    <item name="android:layout_height">wrap_content</item>
+  </style>
+  
+  <style name="DefaultHeightFill">
+    <item name="android:layout_width">wrap_content</item>
+    <item name="android:layout_height">fill_parent</item>
+  </style>
+  
+  <style name="DefaultLinearWrap" parent="DefaultWrap">
+    <item name="android:orientation">vertical</item>
+    <item name="android:padding">7dp</item>
+  </style>
+  
+  <style name="DefaultLinearFill" parent="DefaultFill">
+    <item name="android:orientation">vertical</item>
+    <item name="android:padding">7dp</item>
+  </style>
+  
+  <style name="DefaultRelativeWrap" parent="DefaultWrap">
+    <item name="android:padding">7dp</item>
+  </style>  
+  
+  <style name="DefaultRelativeFill" parent="DefaultFill">
+    <item name="android:padding">7dp</item>
+  </style>
+
+  <style name="DefaultButton" parent="DefaultWrap">
+    <item name="android:layout_width">100dp</item>
+  </style>
+</resources>

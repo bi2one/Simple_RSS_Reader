@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+  <item android:id="@+id/regist_rss"
+	android:icon="@drawable/regist_rss"
+	android:title="@string/regist_rss" />
+  <item android:id="@+id/help"
+	android:icon="@drawable/help"
+	android:title="@string/help" />
+  <item android:id="@+id/remove_rss"
+	android:icon="@drawable/remove_rss"
+	android:title="@string/remove_rss" />
+  <item android:id="@+id/flush_article"
+	android:icon="@drawable/flush_article"
+	android:title="@string/flush_article" />
+</menu>

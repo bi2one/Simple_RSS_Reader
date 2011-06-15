@@ -1,0 +1,5 @@
+*.class
+R.java
+classes.dex
+bin/*
+gen/*
